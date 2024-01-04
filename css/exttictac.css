@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+}
+div{
+    border: 8px solid green;
+    width: 400px;
+    height: 400px;
+    background-color: white; 
+}
+.a{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.c{
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+td:hover{
+   
+    border: 2px solid blue;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+.e{
+    border: 2px solid black;
+}
+.g{
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+.i{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+table{
+margin-top: 50px;
+}
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 80px;
+text-shadow: 5px 5px 5px yellow;
+color: blue;
+}

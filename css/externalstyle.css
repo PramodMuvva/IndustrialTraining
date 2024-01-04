@@ -1,0 +1,50 @@
+.external{
+    font-size: 50px;
+    font-family: Impact;
+    border: 2px solid lightgreen;
+    color: blueviolet;
+    background-color: lightcyan;
+}
+#ext
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    color: brown;
+}
+span{
+    color: red;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    background-color: lavenderblush;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+input[type="text"]{
+    color:blue
+}
+input[type="number"]{
+    color: yellowgreen;
+}
+input[type="password"]{
+    color: blueviolet;
+}
+a[href]{
+        color: red;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: yellow;
+}
+a:hover{
+    background-color: hotpink;
+    font-size: 50px;
+}
+a:active{
+    color: aqua;
+}

@@ -1,0 +1,108 @@
+body{
+    background-color: gray;
+}
+.top{
+    height: 50px;
+    background-color: white;
+    
+    
+}
+.b1{
+    background-color: green;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+    
+}
+.b2{
+    background-color: lightblue;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+}
+.b3{
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+}
+button{
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+select{
+    margin: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+.box{
+    float: left;
+    margin-top: 20px;
+    margin-right: 25px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+}
+.parent{
+    width: 800px;
+    height: 1000px;
+    
+    margin-left: 400px;
+}
+
+.btop{
+    height: 150px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: rebeccapurple;
+}
+.t1{
+    display: inline;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    left: 150px;
+}
+.t2{
+    display: inline;
+    font-size: 15px;
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+.t3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline;
+}
+.t4{
+    color: grey;
+}
+.bullet{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 15px;
+   background-color: rgb(0, 255, 0);
+   left: 15px;
+    margin-right: 20px;
+}
+.date{
+    display: inline;
+    margin-left: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+.line{
+    height: 250px;
+    float: left;
+    width: 2px;
+    background-color: grey;
+    position: relative;
+    margin-right: 20px;
+}
