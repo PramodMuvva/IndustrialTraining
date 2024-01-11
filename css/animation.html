@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #one{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            animation-name: hello;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+            
+        }
+        @keyframes hello{
+            from {
+                background-color: green;
+            }
+            to{
+                background-color: hotpink;
+                width: 500px;
+                border-radius: 500px;
+            }
+        }
+        #two{
+            width: 200px;
+            height: 200px;
+            background-color: indianred;
+            animation-name: hola;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: 2;
+            animation-direction: alternate;
+            animation-fill-mode: backwards;
+            position: relative;
+        }
+        @keyframes hola {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;border-radius: 50px;}
+            50%  {background-color:blue; left:200px; top:200px;border-radius: 100px;}
+            75%  {background-color:green; left:0px; top:200px;border-radius: 150px;}
+            100% {background-color:hotpink; left:0px; top:0px;border-radius: 200px;}
+        }
+        #three{
+            width: 200px;
+            height: 200px;
+            background-color: yellowgreen;
+            animation-name: one;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes one {
+            from{
+                border-radius: 200px;
+                left: 0px;
+                border: 0px dotted blueviolet;
+                transform: scale(0.5);
+
+            }
+            to{
+                border-radius: 0px;
+                left: 500px;
+                transform: rotate(180deg);
+                border: 20px dotted blueviolet;
+                transform: scale(1);
+            }
+        }
+        #four{
+            width: 200px;
+            height: 200px;
+            background-color: yellowgreen;
+            animation-name: two;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            position: absolute;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            float: right;
+            top: 50px;
+        }
+        @keyframes two {
+            from{
+                border-radius: 200px;
+                right: 0px;
+                border: 0px double blueviolet;
+                transform: scale(0.5);
+
+            }
+            to{
+                border-radius: 0px;
+                right: 500px;
+                transform: rotate(180deg);
+                border: 20px double blueviolet;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <div id="four"></div>
+</body>
+</html>

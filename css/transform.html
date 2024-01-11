@@ -1,0 +1,134 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .parent{
+            height: 1000px;
+            width: auto;
+        }
+        div{
+            width: 200px;
+            height: 300px;
+            margin-right: 20px;
+            float: left;
+            font-size: 20px;
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+        }
+        #one{
+            background-color: rebeccapurple;
+        }
+        #one:hover{
+            transform: translate(40px,80px);   
+        }
+        #two{
+            background-color: green;
+        }
+        #two:hover{
+            transform: translateX(40px);
+        }
+        #three{
+            background-color: hotpink;
+        }
+        #three:hover{
+            transform: translateY(80px);
+        }
+        #four{
+            background-color: blue;
+            margin-left: 50px;
+        }
+        #four:hover{
+            transform: rotate(45deg);
+        }
+        #five{
+            background-color: brown;
+        }
+        #five:hover{
+            transform: rotateX(60deg);
+        }
+        #six{
+            background-color: khaki;
+        }
+        #six:hover{
+            transform: rotateY(60deg);
+        }
+        #seven{
+            background-color: palegreen;
+        }
+        #seven:hover{
+            transform: scale(2,3);
+        }
+        #eight{
+            background-color: blue;
+        }
+        #eight:hover{
+            transform: scaleX(2);
+        }
+        #nine{
+            background-color: chocolate;
+        }
+        #nine:hover{
+            transform: scaleY(2);
+        }
+        #ten{
+            background-color: darkgoldenrod;
+            margin-left: 50px;
+        }
+        #ten:hover{
+            transform: skew(20deg,30deg);
+        }
+        #eleven{
+            background-color: darkorange;
+        }
+        #eleven:hover{
+            transform: skewX(30deg);
+        }
+        #twelve{
+            background-color: yellowgreen;
+        }
+        #twelve:hover{
+            transform: skewY(30deg)
+        }
+        #thirteen{
+            background-color: sienna;
+           
+        }
+        #thirteen:hover{
+            transform: matrix(1,0.2,0,2,30,60);
+        }
+        #a{
+            background-color: yellow;
+        }
+        #a:hover{
+            transform: translateZ(50px)
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Transform in CSS</h1>
+    <hr>
+    <div class="parent">
+    
+    <div id="one">Translate</div>
+    <div id="two">TranslateX</div>
+    <div id="three">TranslateY</div>
+    <div id="four">Rotate</div>
+    <div id="five">RotateX</div>
+    <div id="six">RotateY</div>
+    <div id="seven">Scale</div>
+    <div id="eight">ScaleX</div>
+    <div id="nine">ScaleY</div>
+    <div id="ten">Skew</div>
+    <div id="eleven">Skew X</div>
+    <div id="twelve">Skew Y</div>
+<!---matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())-->
+    <div id="thirteen">Matrix</div></div>
+    <hr>
+    <h1 style="text-align:center;">3D Transform</h1><hr>
+    <div id="a"></div>
+    <div id="b"></div>
+</body>
+</html>
