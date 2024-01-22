@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #one{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        animation-name: one;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        position: relative;
+        left: 0px;
+    }
+    @keyframes one {
+        from{
+            background-color: red;
+        }
+        to{
+            background-color: yellow;
+            transform: rotate(60deg);
+            position: relative;
+            left: 300px;
+            border-radius: 200px;
+        }
+    }
+    #two{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+        animation-name: hola;
+        animation-duration: 2s;
+        /* animation-timing-function: ease; */
+        background-color: red;
+    }
+    @keyframes hola {
+        0%{
+            
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        50%{
+            position: relative;
+            top: 100px;
+            left: 50px;
+        }
+        100%{
+            position: relative;
+            left: 100px;
+            top: 0px;
+        }
+    }
+</style>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+</body>
+</html>
